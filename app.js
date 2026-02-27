@@ -21,3 +21,5 @@
 function add () {
     console.log("hello");
 }
+
+// salom
