@@ -1,165 +1,76 @@
-// //Task 1
-// function countEvenOdd(n) {
-//     let evenCount = 0;
-//     let oddCount = 0;
+// // var a = undefined;
 
-//     for (let i = 1; i <= n; i++) {
-//         if (i % 2 === 0) {
-//             evenCount++;
-//         } else {
-//             oddCount++;
-//         }
-//     }
+// // console.log(a);
+// // let a = 20;
 
-//     console.log("Even numbers:", evenCount);
-//     console.log("Odd numbers:", oddCount);
-// }
-// countEvenOdd(10);
+// // greet();
 
-// //Tassk 2
+// // function greet() {
+// //   console.log("hello");
+// // }
 
-// function reverseNumber(num) {
-//     let reversed = 0;
+// // console.log(Array())
 
-//     while (num > 0) {
-//         let digit = num % 10;       
-//         reversed = reversed * 10 + digit; 
-//         num = Math.floor(num / 10); 
-//     }
+// // Array.prototype.greet = function () {
+// //   console.log("Arrayy prototypedan keyapdi");
+// // };
 
-//     console.log("Reversed number:", reversed);
-//     return reversed;
-// }
-// reverseNumber(1234);
+// // Array().greet();
 
-// //Tsk 3
-// function largestDigit(num) {
-//     let largest = 0;
+// console.log(5 === "5");
 
-//     while (num > 0) {
-//         let digit = num % 10;       
-//         if (digit > largest) {
-//             largest = digit;
-//         }
-//         num = Math.floor(num / 10); 
-//     }
+// console.log("Ulugbek" === "Ulugbek");
 
-//     console.log("Largest digit:", largest);
-//     return largest;
-// }
-// largestDigit(58392);
+// const user = {
+//   name: "Ulugbek",
+// };
 
-// //TAsk 4
+// const userr = user;
 
-// function sumOfDigits(num) {
-//     let sum = 0;
+// console.log(user || userr);
 
-//     while (num > 0) {
-//         let digit = num % 10;       
-//         sum += digit;               
-//         num = Math.floor(num / 10);
-//     }
+// let number = prompt();
 
-//     console.log("Raqamlar yig‘indisi:", sum);
-//     return sum;
-// }
-// sumOfDigits(1234);
+// for (let i = 1; i < number; i++) {
 
-// //Task 5
-
-// function countDigits(num) {
-//     let count = 0;
-
-//     while (num > 0) {
-//         num = Math.floor(num / 10); 
-//         count++;                    
-//     }
-
-//     console.log("Raqamlar soni:", count);
-//     return count;
-// }
-// countDigits(12345);
-
-
-
-// 1
-
-
-// let a = 3;
-// let b = -7;
-// let c = 2;
-
-// if (a * b * c > 0) {
-//     alert("The sign is +");
-// } else if (a * b * c < 0) {
-//     alert("The sign is -");
-// } else {
-//     alert("The sign is 0");
 // }
 
+// let number = prompt("Enter a number : ")
 
-// 2
+// i = 0
 
+// while(number > 0){
 
-// let a = 0;
-// let b = -1;
-// let c = 4;
+//   let x = number % 10
 
-
-// let number = prompt("Enter the first number:");
-
-// while( number >= 18) {
-//     console.log("welcome");
 // }
 
+// for (let i = 0; i < 10; i++) {}
 
-
-
-
-// Lesson 4
-
-
-// task 1
-
-// let a = 10;
-// let b = 29;
-
-// if( a > b ){
-//     console.log("a bigger than b");
-// }else if(a == b){
-//     console.log(" same");
-// }else {
-//     console.log("b bigger than a");
+// let i = 0;
+// while (i < 10) {
+//   i++;
 // }
 
+// do {
+//   i++;
+// } while (i < 10);
 
-// task 2
+// const user = {
+//   name: "Ulugbek",
+//   age: 20,
+//   country: "Uzbekistan",
+// };
 
-// let a  = -10
-let a =  prompt("enter the first number");
-// let b = 20
-let b = prompt("enter the second number");
-// let c = -1
-let c = prompt("enter the third number");
+// let keys = Object.keys(user);
 
-let minusCount = 0
+// for (const key in user) {
+//   const element = user[key];
+//   console.log(element);
+// }
 
-if(a < 0 ){
-    minusCount++
-}
- if (b < 0){
-    minusCount++
-}
- if (c < 0){
-    minusCount++
-}
+// for (const element of keys) {
+//   console.log(element);
+// }
 
-if(minusCount % 2 === 0){
-    console.log("+");
-    
-}else if (minusCount % 2 !== 0){
-    console.log("-");
-}
-
-
-// log log
+// keys.forEach(function (element) {});
