@@ -168,4 +168,4 @@ if(minusCount % 2 === 0){
 function test(){
     console.log("salom");
     
-}
+}   
