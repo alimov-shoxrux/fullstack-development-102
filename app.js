@@ -136,30 +136,81 @@
 // task 2
 
 // let a  = -10
-let a =  prompt("enter the first number");
-// let b = 20
-let b = prompt("enter the second number");
-// let c = -1
-let c = prompt("enter the third number");
+// let a =  prompt("enter the first number");
+// // let b = 20
+// let b = prompt("enter the second number");
+// // let c = -1
+// let c = prompt("enter the third number");
 
-let minusCount = 0
+// let minusCount = 0
 
-if(a < 0 ){
-    minusCount++
-}
- if (b < 0){
-    minusCount++
-}
- if (c < 0){
-    minusCount++
-}
+// if(a < 0 ){
+//     minusCount++
+// }
+//  if (b < 0){
+//     minusCount++
+// }
+//  if (c < 0){
+//     minusCount++
+// }
 
-if(minusCount % 2 === 0){
-    console.log("+");
-    
-}else if (minusCount % 2 !== 0){
-    console.log("-");
-}
+// if(minusCount % 2 === 0){
+//     console.log("+");
+
+// }else if (minusCount % 2 !== 0){
+//     console.log("-");
+// }
 
 
 // log log
+
+
+
+
+// lesson 5 practise 
+
+// function sayHello(){
+//     console.log("hello!!");
+// }
+
+// sayHello()
+
+
+// function test(){
+//     let name = "ali"
+//     console.log(name);      
+// }
+
+// test()
+
+
+
+// function outer() {
+//     let number = 5
+
+//     function inner() {
+//         console.log(number);
+//     }
+
+//     return inner;
+// }
+
+// let result = outer();
+// result();
+
+
+function counter() {
+  let count = 0;
+
+  return function () {
+    count++;
+    console.log(count);
+  };
+}
+
+const add = counter();
+
+add();
+add();
+add();  
+add()
