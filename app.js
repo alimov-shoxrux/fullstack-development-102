@@ -163,3 +163,9 @@ if(minusCount % 2 === 0){
 
 
 // log log
+
+
+function test(){
+    console.log("salom");
+    
+}
